@@ -1,0 +1,79 @@
+body {
+    background-color: beige;
+}
+.d1 {
+    height: 270px;
+    width: 270px;
+    background-color: beige;
+    border-radius: 50%;
+    position: absolute;
+    top: 140px;
+    left: 800px;
+    overflow: hidden;
+}
+.d2 {
+    height: 150px;
+    width: 150px;
+    background-color: beige;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left:60px;
+    overflow: hidden;
+}
+#num {
+    position: absolute;
+    text-shadow: 9px 6px 13px rgb(51, 51, 51);
+    top: 15px;
+    left: 50px;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    display: none;
+}
+@keyframes numanim {
+    0%{}
+    100% {transform: translate(0px,-350px);}
+}
+#p {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 140px;
+    margin-left: 450px;
+    border: 3px solid black;
+    border-radius: 10%;
+    box-shadow: 9px 13px 16px black;
+}
+#name:hover{
+    text-decoration: underline;
+    color: rgb(87, 87, 87);
+}
+#but {
+    position: absolute;
+    top: 500px;
+    left:510px;
+    width: 200px;
+    height: 50px;
+    background-color: lightblue;
+    border: 4px solid rgb(107, 167, 187);
+    color: blue;
+    font-size: 30px;
+    box-shadow: 0px 10px 0px black;
+}
+@keyframes button {
+    0%{}
+    100%{
+        opacity: 0;
+        box-shadow: 0px 3px 0px black;
+        top:510px;
+    }
+}
+@keyframes button2 {
+    0%{}
+    100%{
+        box-shadow: 0px 3px 0px black;
+        top:510px;
+    }
+}
